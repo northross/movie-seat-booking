@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d movie-seat-booking"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/northross/movie-seat-booking/issues"
   },
-  "homepage": "https://github.com/northross/movie-seat-booking#readme",
+  "homepage": "https://northross.github.io/movie-seat-booking",
   "dependencies": {
     "gh-pages": "^3.1.0"
   }
