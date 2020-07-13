@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #242333;
-  color: #fff;
+  background-color: #1f1e25;
+  color: rgb(253, 192, 192);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,11 +16,19 @@ body {
   margin: 0;
 }
 
+label {
+  font-size: 20px;
+}
+
+small {
+  font-size: 16px;
+}
+
 .movie-container select {
   background-color: #fff;
   border: 0;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 18px;
   margin-left: 10px;
   padding: 5px 15px 5px 15px;
   -moz-appearance: none;
@@ -30,19 +38,19 @@ body {
 
 .seat {
   background-color: #444451;
-  height: 12px;
-  width: 15px;
+  height: 16px;
+  width: 18px;
   margin: 3px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 .seat.selected {
-  background-color: #6feaf6;
+  background-color: #365aff;
 }
 
 .seat.occupied {
-  background-color: #fff;
+  background-color: rgb(255, 0, 0);
 }
 
 .seat:nth-of-type(2) {
@@ -90,7 +98,7 @@ body {
 
 .screen {
   background-color: #fff;
-  height: 70px;
+  height: 100px;
   width: 100%;
   margin: 15px 0;
   transform: rotateX(-45deg);
@@ -98,10 +106,15 @@ body {
 }
 
 .container {
-  perspective: 900px;
+  perspective: 800px;
   margin-bottom: 30px;
 }
 
-p.text span {
-  color: #6feaf6;
+p {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+span {
+  color: #00ccff;
 }
